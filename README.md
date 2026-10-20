@@ -1,6 +1,6 @@
 # Rive Vehicle Interface
 
-<!-- VIDEO: drag rive-vehicle-interface.mp4 here -->
+https://github.com/user-attachments/assets/d0886e18-e0cb-4250-94d4-0a2f42ebbcb9
 
 A car showroom and in-vehicle interface built entirely with the [Rive CLI](https://rive.app/docs/cli/overview):
 a photoreal 3D scene rendered with Rive's GPU canvas and WGSL shaders, with the vehicle UI (status, vehicle,
