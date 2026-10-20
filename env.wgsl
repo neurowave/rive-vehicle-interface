@@ -26,6 +26,14 @@ struct E {
 @group(0) @binding(6) var tW3: texture_2d<f32>;
 @group(0) @binding(7) var tW4: texture_2d<f32>; // the LED wall's live Rive canvas (panel 4 has no env slot)
 
+// Every fragment entry statically uses every binding of this file (`let keepLayoutUse = keepLayout();`), so the pipeline's
+// auto layout is the same on every CLI: 1.6 bakes it from all the bindings a file declares, 1.7 from what each
+// pipeline's entries use, and world.as mkBG binds all of them. No discard and no effect on the output.
+fn keepLayout() -> f32 {
+    let d = textureDimensions(tSrc).x + textureDimensions(tW0).x + textureDimensions(tW1).x + textureDimensions(tW2).x + textureDimensions(tW3).x + textureDimensions(tW4).x;
+    return f32(d) + textureSampleLevel(tW0, samp, vec2f(0.0), 0.0).x + e.p0.x;
+}
+
 struct VOut { @builtin(position) pos: vec4f, @location(0) uv: vec2f, };
 
 @vertex
@@ -484,6 +492,7 @@ fn rockHM(q: vec2f) -> f32 {
 // crags between the 32 samples
 @fragment
 fn fs_ridgeb(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let n = e.p0.y;
     let fk = floor(i.pos.y);
     let c = i.pos.x / n * 6.2831853 - 3.14159265;
@@ -497,6 +506,7 @@ fn fs_ridgeb(i: VOut) -> @location(0) vec4f {
 
 @fragment
 fn fs_rockhm(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let q = (i.pos.xy / e.p0.y - vec2f(0.5)) * HM_EXTENT;
     return vec4f(rockH(q), 0.0, 0.0, 1.0);
 }
@@ -789,6 +799,7 @@ fn padAlbedo(p: vec3f) -> vec3f {
 // sky + mountains only (+ sun / moon), no rocks: rendered with the static cache, sampled by the backdrop
 @fragment
 fn fs_skycube(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     return vec4f(skyAll(faceDir(i32(e.p0.x + 0.5), i.uv)), 1.0);
 }
 
@@ -802,12 +813,14 @@ fn skyCached(d: vec3f) -> vec3f {
 
 @fragment
 fn fs_env_static(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let d = faceDir(i32(e.p0.x + 0.5), i.uv);
     return studioStatic(ENV_EYE, d);
 }
 
 @fragment
 fn fs_env(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let d = faceDir(i32(e.p0.x + 0.5), i.uv);
     let eye = ENV_EYE;
     let s = textureSampleLevel(tSrc, samp, d, 0.0);
@@ -845,11 +858,13 @@ fn vs_sky(@builtin(vertex_index) vi: u32) -> VSky {
 // composite the reduced-resolution backdrop (p0.xy = 1 / full render size)
 @fragment
 fn fs_bgcomp(i: VSky) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     return vec4f(textureSampleLevel(tW0, samp, i.pos.xy * e.p0.xy, 0.0).rgb, 1.0);
 }
 
 @fragment
 fn fs_sky(i: VSky) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let a = e.ivp * vec4f(i.ndc, 0.0, 1.0);
     let b = e.ivp * vec4f(i.ndc, 1.0, 1.0);
     let d = normalize(b.xyz / b.w - a.xyz / a.w);
@@ -859,6 +874,7 @@ fn fs_sky(i: VSky) -> @location(0) vec4f {
 // Downsample: the bound view exposes only the previous mip, so lod 0 = that mip.
 @fragment
 fn fs_down(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let face = i32(e.p0.x + 0.5);
     let px = 0.25 / e.p0.z; // quarter texel of the destination mip, in uv
     var c = vec3f(0.0);
@@ -899,6 +915,7 @@ fn dGGX(nh: f32, a: f32) -> f32 {
 
 @fragment
 fn fs_prefilter(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let n = faceDir(i32(e.p0.x + 0.5), i.uv);
     let rough = e.p0.y;
     let maxLod = e.p1.w - 1.0;
@@ -936,6 +953,7 @@ fn gSmith(nv: f32, nl: f32, rough: f32) -> f32 {
 
 @fragment
 fn fs_brdf(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let keep = e.p0.x * 0.0;
     let nv = max(i.uv.x, 1e-3);
     let rough = max(1.0 - i.uv.y, 0.02); // v=0 (top row) = rough 1

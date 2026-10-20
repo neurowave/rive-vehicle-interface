@@ -31,7 +31,7 @@ with the showroom's own paint and materials.
    ahead of time (much faster at runtime).
 
 The repository ships the generated files (`scene.rml`, `assets/car.bin`, `assets/tex/plate.png`), so no
-Python or Blender is needed just to run it. Tested with Rive CLI 1.5.1 and 1.6.0.
+Python or Blender is needed just to run it. Tested with Rive CLI 1.5.1, 1.6.0 and the 1.7 previews.
 
 ### Troubleshooting
 

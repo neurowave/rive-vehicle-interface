@@ -17,6 +17,14 @@ struct P {
 @group(0) @binding(2) var samp: sampler;
 @group(0) @binding(3) var tBloom: texture_2d<f32>;
 
+// Every fragment entry statically uses every binding of this file (`let keepLayoutUse = keepLayout();`), so the pipeline's
+// auto layout is the same on every CLI: 1.6 bakes it from all the bindings a file declares, 1.7 from what each
+// pipeline's entries use, and world.as mkBG binds all of them. No discard and no effect on the output.
+fn keepLayout() -> f32 {
+    let d = textureDimensions(tSrc).x + textureDimensions(tBloom).x;
+    return f32(d) + textureSampleLevel(tSrc, samp, vec2f(0.0), 0.0).x + p.p0.x;
+}
+
 struct VOut { @builtin(position) pos: vec4f, @location(0) uv: vec2f, };
 
 @vertex
@@ -53,6 +61,7 @@ fn down13(uv: vec2f) -> vec3f {
 
 @fragment
 fn fs_bright(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let c = min(down13(i.uv), vec3f(64.0));
     let br = max(c.r, max(c.g, c.b));
     let t = p.p1.x;
@@ -65,11 +74,13 @@ fn fs_bright(i: VOut) -> @location(0) vec4f {
 
 @fragment
 fn fs_down(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     return vec4f(down13(i.uv), 1.0);
 }
 
 @fragment
 fn fs_up(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let d = p.p0.xy;
     var c = s(uv0(i.uv, d, -1.0, -1.0)) + s(uv0(i.uv, d, 1.0, -1.0)) + s(uv0(i.uv, d, -1.0, 1.0)) + s(uv0(i.uv, d, 1.0, 1.0));
     c += 2.0 * (s(uv0(i.uv, d, 0.0, -1.0)) + s(uv0(i.uv, d, 0.0, 1.0)) + s(uv0(i.uv, d, -1.0, 0.0)) + s(uv0(i.uv, d, 1.0, 0.0)));
@@ -79,6 +90,7 @@ fn fs_up(i: VOut) -> @location(0) vec4f {
 
 @fragment
 fn fs_down2d(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     return textureSampleLevel(tSrc, samp, i.uv, 0.0);
 }
 
@@ -102,6 +114,7 @@ fn aces(c: vec3f) -> vec3f {
 
 @fragment
 fn fs_tone(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let d = i.uv - vec2f(0.5);
     let ca = p.p2.x * dot(d, d);
     var c = vec3f(

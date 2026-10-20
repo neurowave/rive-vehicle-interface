@@ -31,6 +31,14 @@ struct O {
 @group(0) @binding(5) var tB: texture_2d<f32>;
 @group(0) @binding(6) var tLed: texture_2d<f32>; // floor only: the LED wall's live Rive canvas
 
+// Every fragment entry statically uses every binding of this file (`let keepLayoutUse = keepLayout();`), so the pipeline's
+// auto layout is the same on every CLI: 1.6 bakes it from all the bindings a file declares, 1.7 from what each
+// pipeline's entries use, and world.as mkBG binds all of them. No discard and no effect on the output.
+fn keepLayout() -> f32 {
+    let d = textureDimensions(tSpec).x + textureDimensions(tLut).x + textureDimensions(tA).x + textureDimensions(tB).x + textureDimensions(tLed).x;
+    return f32(d) + textureSampleLevel(tLut, samp, vec2f(0.0), 0.0).x + o.base.x;
+}
+
 const PI: f32 = 3.14159265;
 
 struct VOut {
@@ -86,6 +94,7 @@ fn vs_hgt(v: CarIn) -> HOut {
 
 @fragment
 fn fs_hgt(i: HOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     return vec4f(i.h, 0.0, 0.0, 1.0);
 }
 
@@ -231,6 +240,7 @@ fn aaRough(r: f32, k: f32) -> f32 {
 
 @fragment
 fn fs_car(i: VOut, @builtin(front_facing) ff: bool) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let mode = i32(o.m2.x + 0.5);
     let flags = i32(o.m2.y + 0.5);
     let gn = normalize(i.wnrm);
@@ -305,6 +315,7 @@ fn fs_car(i: VOut, @builtin(front_facing) ff: bool) -> @location(0) vec4f {
 // ---------------------------------------------------------------- glass (premultiplied blend)
 @fragment
 fn fs_glass(i: VOut, @builtin(front_facing) ff: bool) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let gn = normalize(i.wnrm);
     let dnx = dpdx(gn);
     let dny = dpdy(gn);
@@ -418,6 +429,7 @@ fn floorRelief(p: vec2f, a1: f32, a2: f32, a3: f32) -> f32 {
 // ---------------------------------------------------------------- floor
 @fragment
 fn fs_floor(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let p = i.wpos.xz;
     var n = vec3f(0.0, 1.0, 0.0);
     let v = normalize(o.eye.xyz - i.wpos);
@@ -564,6 +576,7 @@ fn fs_floor(i: VOut) -> @location(0) vec4f {
 // soft falloff toward the frame so it reads as a printed panel lit from behind, not a flat screen.
 @fragment
 fn fs_wall(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     var c = srgb(textureSample(tA, samp, i.uv).rgb);
     let grain = vnoise(i.uv * vec2f(900.0, 600.0)) * 0.06 + 0.97;
     let e = vec2f(min(i.uv.x, 1.0 - i.uv.x), min(i.uv.y, 1.0 - i.uv.y));
@@ -584,6 +597,7 @@ fn acesUI(v0: vec3f) -> vec3f {
 
 @fragment
 fn fs_ui(i: VOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     // canvas is premultiplied sRGB; written straight to the display target so UI colours stay exact.
     // Frosted glass: where the panel's glass covers, the scene behind is replaced by a heavily blurred,
     // tone-mapped, slightly darkened copy (1/8-res 13-tap chain), seen through the panel's tint.
@@ -629,6 +643,7 @@ struct SOut { @builtin(position) pos: vec4f, @location(0) ndc: vec2f, };
 // same frost + scene reflection as the panels, reflected about the cylinder's normal.
 @fragment
 fn fs_visor(s: SOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let tX = o.emit.x;
     let aspect = o.emit.y;
     let dx = s.ndc.x * tX;
@@ -678,6 +693,7 @@ fn vs_sky(@builtin(vertex_index) vi: u32) -> SOut {
 
 @fragment
 fn fs_backdrop(s: SOut) -> @location(0) vec4f {
+    let keepLayoutUse = keepLayout();
     let a = o.mvp * vec4f(s.ndc, 0.0, 1.0);
     let b = o.mvp * vec4f(s.ndc, 1.0, 1.0);
     let d = normalize(b.xyz / b.w - a.xyz / a.w);
