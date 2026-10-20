@@ -1,0 +1,99 @@
+<!-- Rive brandmark + wordmark geometry, from the Rive brand artboards (Logo, Wordmark). -->
+<Marks>
+<Shape name="SquareWithR" artboard="Logo">
+            <PointsPath isClockwise="false" isClosed="true" pathFlags="2" name="Path">
+                <StraightVertex x="-50" y="-50" />
+                <StraightVertex x="-50" y="50" />
+                <StraightVertex x="50" y="50" />
+                <StraightVertex x="50" y="-50" />
+            </PointsPath>
+            <PointsPath isClosed="true" name="Path">
+                <CubicDetachedVertex outDistance="2.0899999" outRotation="1.5707964" x="33.330002" y="-5.71" />
+                <CubicDetachedVertex inDistance="2.0357063" inRotation="-1.0345891" outDistance="2.0443091" outRotation="2.1045046" x="31.77" y="0.050000001" />
+                <CubicDetachedVertex inDistance="2.0342073" inRotation="-0.52524358" outDistance="2.0342073" outRotation="2.616349" x="27.57" y="4.21" />
+                <CubicDetachedVertex inDistance="2.0799999" x="21.809999" y="5.73" />
+                <StraightVertex x="13.36" y="5.75" />
+                <StraightVertex x="33.34" y="29.6" />
+                <StraightVertex x="19.030001" y="29.6" />
+                <StraightVertex x="-0.92000002" y="5.79" />
+                <StraightVertex x="-12.89" y="5.8200002" />
+                <StraightVertex x="-12.89" y="-5.21" />
+                <CubicDetachedVertex outDistance="0.61000001" x="21.280001" y="-5.21" />
+                <CubicDetachedVertex inDistance="0.61000001" inRotation="1.5707964" x="22.389999" y="-6.3200002" />
+                <CubicDetachedVertex outDistance="0.61000001" outRotation="-1.5707964" x="22.389999" y="-17.620001" />
+                <CubicDetachedVertex inDistance="0.61000001" x="21.280001" y="-18.73" />
+                <StraightVertex x="-33.330002" y="-18.73" />
+                <StraightVertex x="-33.330002" y="-29.6" />
+                <CubicDetachedVertex outDistance="2.0899999" x="21.809999" y="-29.6" />
+                <CubicDetachedVertex inDistance="2.0357063" inRotation="-2.6053855" outDistance="2.0443091" outRotation="0.53370821" x="27.57" y="-28.040001" />
+                <CubicDetachedVertex inDistance="2.0185392" inRotation="-2.1120656" outDistance="2.0185392" outRotation="1.0295272" x="31.77" y="-23.879999" />
+                <CubicDetachedVertex inDistance="2.0799999" inRotation="-1.5707964" x="33.330002" y="-18.16" />
+            </PointsPath>
+            </Shape>
+    
+<Shape x="-179.57" y="0" name="R" artboard="Wordmark">
+            <PointsPath isClosed="true" name="Path">
+                <StraightVertex x="29.465" y="7.75" />
+                <StraightVertex x="18.045" y="7.7800002" />
+                <StraightVertex x="45.044998" y="40" />
+                <StraightVertex x="25.715" y="40" />
+                <StraightVertex x="-1.245" y="7.8200002" />
+                <StraightVertex x="-17.415001" y="7.8600001" />
+                <StraightVertex x="-17.415001" y="-7.0500002" />
+                <CubicDetachedVertex outDistance="0.82999998" x="28.754999" y="-7.0500002" />
+                <CubicDetachedVertex inDistance="0.82999998" inRotation="1.5707964" x="30.254999" y="-8.5500002" />
+                <CubicDetachedVertex outDistance="0.82999998" outRotation="-1.5707964" x="30.254999" y="-23.82" />
+                <CubicDetachedVertex inDistance="0.82999998" x="28.754999" y="-25.32" />
+                <StraightVertex x="-45.044998" y="-25.32" />
+                <StraightVertex x="-45.044998" y="-40" />
+                <CubicDetachedVertex outDistance="2.8199999" x="29.465" y="-40" />
+                <CubicDetachedVertex inDistance="2.7612317" inRotation="-2.6098685" outDistance="2.7577164" outRotation="0.53668815" x="37.255001" y="-37.889999" />
+                <CubicDetachedVertex inDistance="2.7319772" inRotation="-2.1130991" outDistance="2.7319772" outRotation="1.0284936" x="42.924999" y="-32.27" />
+                <CubicDetachedVertex inDistance="2.8199999" inRotation="-1.5707964" x="45.035" y="-24.540001" />
+                <CubicDetachedVertex outDistance="2.8199999" outRotation="1.5707964" x="45.035" y="-7.7199998" />
+                <CubicDetachedVertex inDistance="2.7526169" inRotation="-1.0372303" outDistance="2.7577164" outRotation="2.1074846" x="42.924999" y="0.07" />
+                <CubicDetachedVertex inDistance="2.7374806" inRotation="-0.52413023" outDistance="2.7461429" outRotation="2.6192849" x="37.255001" y="5.6900001" />
+                <CubicDetachedVertex inDistance="2.8199999" x="29.465" y="7.75" />
+            </PointsPath>
+            </Shape>
+        
+<Shape x="-58.125" y="-0.11499" name="I" artboard="Wordmark">
+            <PointsPath isClosed="true" name="Path">
+                <StraightVertex x="-7.29" y="39.884998" />
+                <StraightVertex x="-7.29" y="-39.884998" />
+                <StraightVertex x="7.29" y="-39.884998" />
+                <StraightVertex x="7.29" y="39.884998" />
+            </PointsPath>
+            </Shape>
+        
+<Shape x="49.49" y="-0.11499" name="V" artboard="Wordmark">
+            <PointsPath isClosed="true" name="Path">
+                <StraightVertex x="-6.5349998" y="39.884998" />
+                <StraightVertex x="-52.735001" y="-39.884998" />
+                <StraightVertex x="-35.674999" y="-39.884998" />
+                <StraightVertex x="0.0049999999" y="22.155001" />
+                <StraightVertex x="35.785" y="-39.884998" />
+                <StraightVertex x="52.735001" y="-39.884998" />
+                <StraightVertex x="6.5349998" y="39.884998" />
+            </PointsPath>
+            </Shape>
+        
+<Shape x="187.22" y="-0.10498" name="E" artboard="Wordmark">
+            <PointsPath isClosed="true" name="Path">
+                <StraightVertex x="-37.395" y="39.875" />
+                <StraightVertex x="-37.395" y="-39.895" />
+                <StraightVertex x="37.395" y="-39.895" />
+                <StraightVertex x="37.395" y="-25.155001" />
+                <StraightVertex x="-22.655001" y="-25.155001" />
+                <StraightVertex x="-22.655001" y="-7.4250002" />
+                <StraightVertex x="24.545" y="-7.4250002" />
+                <StraightVertex x="24.545" y="7.4250002" />
+                <StraightVertex x="-22.655001" y="7.4250002" />
+                <StraightVertex x="-22.655001" y="25.155001" />
+                <StraightVertex x="37.395" y="25.155001" />
+                <StraightVertex x="37.395" y="39.895" />
+                <StraightVertex x="-37.395" y="39.895" />
+            </PointsPath>
+            </Shape>
+    
+</Marks>

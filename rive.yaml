@@ -1,0 +1,11 @@
+name: rive-vehicle-interface
+main: Garage
+scripting: wasm
+exclude:
+  - tools
+  - build
+  - art
+  - .venv
+logs:
+  file: build/rive.log
+  problems: build/problems.log

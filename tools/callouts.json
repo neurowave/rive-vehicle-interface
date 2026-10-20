@@ -1,0 +1,28 @@
+{
+  "about": "Callout anchors for the 3D engine: points on the panel artboards where a callout line to a physical car part should leave the panel. Coordinates are Panel artboard pixels (600 x 780, origin top-left), body scroll at rest (0), measured by pixel scans of the settled render build/hv_final_p1_150.png (rive . --artboard=\"Panel 1\" --viewport=600x780 --data=section=1 --advance=150). x,y = midpoint of the element edge facing the car; center/bbox given so the engine can pick another exit point. Generated UI: tools/gen_glass.py (hero_car); re-measure if that layout changes.",
+  "artboard": [600, 780],
+  "panels": {
+    "0": {"screen_side": "right", "edge_facing_car": "left"},
+    "1": {"screen_side": "left", "edge_facing_car": "right"},
+    "2": {"screen_side": "left", "edge_facing_car": "right"},
+    "3": {"screen_side": "left", "edge_facing_car": "right"},
+    "4": {"screen_side": "left", "edge_facing_car": "right"}
+  },
+  "panel_note": "world.as updatePanels: panel 0 sits on the right of the screen, panels 1-4 on the left, each turned ~41 deg toward the car. The Vehicle hero drawing is a plan view with the nose pointing right, so the car's left side is at the top of the drawing.",
+  "anchors": [
+    {"panel": 1, "id": "tyre_fl", "label": "Front left tyre · 2.6 bar", "part": "front-left wheel", "x": 441, "y": 144.5, "edge": "right",
+     "center": [403.5, 144.5], "bbox": [366, 127, 441, 162]},
+    {"panel": 1, "id": "tyre_fr", "label": "Front right tyre · 2.6 bar", "part": "front-right wheel", "x": 441, "y": 356.5, "edge": "right",
+     "center": [403.5, 356.5], "bbox": [366, 339, 441, 374]},
+    {"panel": 1, "id": "tyre_rl", "label": "Rear left tyre · 2.5 bar", "part": "rear-left wheel", "x": 231, "y": 144.5, "edge": "right",
+     "center": [193.5, 144.5], "bbox": [156, 127, 231, 162]},
+    {"panel": 1, "id": "tyre_rr", "label": "Rear right tyre · 2.6 bar", "part": "rear-right wheel", "x": 231, "y": 356.5, "edge": "right",
+     "center": [193.5, 356.5], "bbox": [156, 339, 231, 374]},
+    {"panel": 1, "id": "charge_port", "label": "Charge port · closed", "part": "charge flap, left rear quarter (world.as pin 2)", "x": 153, "y": 206, "edge": "right",
+     "center": [147.6, 206.0], "bbox": [142, 203, 153, 209],
+     "note": "amber flap marker on the body outline (a pulsing ring around it reaches ~15 px radius); the amber plug chip linked to it sits at center [77.5, 144.5], bbox [61, 128, 94, 161]"},
+    {"panel": 1, "id": "lock", "label": "Locked", "part": "cabin / doors", "x": 301.5, "y": 250.5, "edge": "right",
+     "center": [283.5, 250.5], "bbox": [265.5, 232.5, 301.5, 268.5],
+     "note": "36 px round chip on the roof; centre from the lock glyph (x 279-288) and border chords"}
+  ]
+}
