@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Third-party content in this repository is licensed separately:
-  - assets/car.bin (converted from "Car Concept" by Eric Chadwick, Darmstadt
+  - car.bin (converted from "Car Concept" by Eric Chadwick, Darmstadt
     Graphics Group GmbH, Khronos glTF Sample Assets): CC BY 4.0,
     https://creativecommons.org/licenses/by/4.0/
-  - fonts/Inter.ttf: SIL Open Font License 1.1, see fonts/licenses/
+  - Inter.ttf: SIL Open Font License 1.1, see licenses/

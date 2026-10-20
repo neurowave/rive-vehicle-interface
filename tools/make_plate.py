@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draws the car's number plate texture (assets/tex/plate.png). Needs Pillow.
+"""Draws the car's number plate texture (t_plate.bin, a PNG kept under the asset's name). Needs Pillow.
 
 The plate mesh is planar-mapped by tools/export_car.py: u runs left to right and v top to bottom across the
 plate as seen from behind, so the image is drawn the way it reads.
@@ -23,9 +23,9 @@ def main():
     text = "CNCPT R1"
     x0, y0, x1, y1 = d.textbbox((0, 0), text, font=font)
     d.text(((W - (x1 - x0)) / 2 - x0, (H - (y1 - y0)) / 2 - y0), text, font=font, fill=(22, 22, 24))
-    out = os.path.join(ROOT, "assets", "tex", "plate.png")
+    out = os.path.join(ROOT, "t_plate.bin")
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    im.save(out, optimize=True)
+    im.save(out, format="PNG", optimize=True)
     print("wrote", out)
 
 

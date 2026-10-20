@@ -2,7 +2,7 @@
 //
 // Physically based, image-based lighting on the GPU:
 //   * Studio environment rendered into a cube (env.wgsl), mip chain + GGX prefilter + BRDF LUT.
-//   * Hero car from the mesh pack (carpack.as, assets/car.bin), per-material PBR (car.wgsl): clearcoat
+//   * Hero car from the mesh pack (carpack.as, car.bin), per-material PBR (car.wgsl): clearcoat
 //     flake paint, chrome, satin metal, whitewall tyres, emissive lenses, glass.
 //   * Floor: planar reflection (mirrored car pass, blurred mip chain) + soft contact shadow from an
 //     orthographic height map rendered from below.
@@ -87,7 +87,7 @@ const PANEL_COLS: i32 = 32;
 const VISOR_TAN: f64 = 0.45;
 const VISOR_INSET: f64 = 0.9;
 // callouts: panel index, anchor in panel-artboard px (600 x 780), car point (pack frame), part normal (x, z)
-// Vehicle panel (tools/callouts.json): FL tyre chip, RL tyre chip, charge-port marker, lock chip -> the car's
+// Vehicle panel (scene.rml): FL tyre chip, RL tyre chip, charge-port marker, lock chip -> the car's
 // left front wheel, left rear wheel, charge flap (rear wing) and driver's door
 const CO_PANEL: StaticArray<i32> = [1, 1, 1, 1];
 // anchors (panel px): FL chip bottom (drops below the drawing first: CO_DY), RL chip right edge, port marker
@@ -273,7 +273,7 @@ function mat(r: f64, g: f64, b: f64, metal: f64, rough: f64): Mat {
     return m;
 }
 
-// Materials for the car pack (assets/car.bin, written by tools/export_car.py). Mesh names are material
+// Materials for the car pack (car.bin, written by tools/export_car.py). Mesh names are material
 // names; "W_" = on a wheel (spins).
 
 function paint(): Mat {
@@ -973,7 +973,7 @@ export class Showroom extends Layout {
                 this.log("car: bad pack");
             }
         } else {
-            this.log("car: blob missing (assets/car.bin)");
+            this.log("car: blob missing (car.bin)");
         }
 
         for (let i = 0; i < this.texNames.length; i++) {
@@ -1846,7 +1846,8 @@ export class Showroom extends Layout {
         }
     }
 
-    // Callouts (panel row -> car part). Anchors are in panel-artboard px (tools/callouts.json); car points in
+    // Callouts (panel row -> car part). Anchors are in panel-artboard px (the Vehicle panel in scene.rml: if a
+    // chip moves there, update CO_AX / CO_AY to match); car points in
     // the car pack's frame (+x = car's left, +y up, +z forward). Computed in advance; drawn after the frame.
     updateCallouts(dt: f64): void {
         this.coN = 0;

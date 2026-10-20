@@ -1,6 +1,6 @@
-# export_car.py — Blender (headless) exporter: glTF car -> "RCP2" mesh pack (assets/car.bin) for carpack.as.
+# export_car.py — Blender (headless) exporter: glTF car -> "RCP2" mesh pack (car.bin) for carpack.as.
 #
-#   blender -b --factory-startup -P tools/export_car.py -- <CarConcept.gltf> assets/car.bin [--ao SAMPLES] [--scale S]
+#   blender -b --factory-startup -P tools/export_car.py -- <CarConcept.gltf> car.bin [--ao SAMPLES] [--scale S]
 #
 # Source: the Khronos glTF Sample Assets "CarConcept" (CC BY 4.0, Eric Chadwick / Darmstadt Graphics Group,
 # from a CC0 model by Unity Fan). See README.md > Credits. No source textures are used: every material is
@@ -21,7 +21,7 @@ from mathutils import Matrix, Vector
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 SRC = argv[0]
-OUT = argv[1] if len(argv) > 1 else "assets/car.bin"
+OUT = argv[1] if len(argv) > 1 else "car.bin"
 AO_SAMPLES = int(argv[argv.index("--ao") + 1]) if "--ao" in argv else 0
 S = float(argv[argv.index("--scale") + 1]) if "--scale" in argv else 1.0
 
