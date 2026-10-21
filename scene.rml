@@ -9,293 +9,290 @@
                     <LayoutComponentStyle paddingLeft="34" paddingRight="34" flexDirectionValue="column" layoutTypeValue="stack" layoutWidthScaleType="fill" name="Style" id="0:2842"/>
                     <LayoutComponent styleId="0:2840" name="Top C Layer" id="0:2841">
                         <LayoutComponentStyle layoutAlignmentType="center" flexDirectionValue="column" layoutWidthScaleType="fill" layoutHeightScaleType="fill" name="Style" id="0:2840"/>
-                        <LayoutComponent styleId="0:2838" name="Top C Anchor" id="0:2839">
-                            <LayoutComponentStyle layoutAlignmentType="center" flexDirectionValue="column" name="Style" id="0:2838"/>
-                            <LayoutComponent styleId="0:2836" name="Top C" id="0:2763">
-                                <LayoutComponentStyle gapHorizontal="5" gapVertical="5" paddingLeft="14" paddingRight="14" paddingTop="7" paddingBottom="7" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="6" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2836"/>
-                                <Fill name="Fill" id="1:128768556">
-                                    <SolidColor colorValue="8C0B0E11" name="C" id="0:2837"/>
-                                </Fill>
-                                <Stroke name="Stroke" id="1:683965971">
-                                    <SolidColor colorValue="26FFFFFF" name="C" id="1:210329877"/>
-                                </Stroke>
-                                <LayoutComponent styleId="0:2759" name="Hints" id="0:2760">
-                                    <LayoutComponentStyle gapHorizontal="6" gapVertical="6" layoutAlignmentType="center" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2759"/>
-                                    <LayoutComponent styleId="0:2698" name="Key chevl" id="0:2699">
-                                        <LayoutComponentStyle paddingLeft="4" paddingRight="4" paddingTop="4" paddingBottom="4" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2698"/>
-                                        <Fill name="Fill" id="1:324436260">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2700"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:823441841">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:426570137"/>
-                                        </Stroke>
-                                        <LayoutComponent width="10" height="10" styleId="0:2696" name="Key chevl I" id="0:2697">
-                                            <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2696"/>
-                                            <Node x="5" y="5" name="Key chevl I Art" id="0:2695">
-                                                <Shape name="Key chevl I 0" id="0:2694">
-                                                    <PointsPath name="Path" id="1:865483071">
-                                                        <StraightVertex x="1.0700001" y="-2.5799999" id="1:446832741"/>
-                                                        <StraightVertex x="-1.5" id="1:638507543"/>
-                                                        <StraightVertex x="1.0700001" y="2.5799999" id="1:836645990"/>
-                                                    </PointsPath>
-                                                    <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:852719441">
-                                                        <SolidColor colorValue="FFF4F6F7" name="C" id="1:390517274"/>
-                                                    </Stroke>
-                                                </Shape>
-                                            </Node>
-                                        </LayoutComponent>
+                        <LayoutComponent styleId="0:2836" name="Top C" id="0:2763">
+                            <LayoutComponentStyle gapHorizontal="5" gapVertical="5" paddingLeft="14" paddingRight="14" paddingTop="7" paddingBottom="7" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="6" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2836"/>
+                            <Fill name="Fill" id="1:128768556">
+                                <SolidColor colorValue="8C0B0E11" name="C" id="0:2837"/>
+                            </Fill>
+                            <Stroke name="Stroke" id="1:683965971">
+                                <SolidColor colorValue="26FFFFFF" name="C" id="1:210329877"/>
+                            </Stroke>
+                            <LayoutComponent styleId="0:2759" name="Hints" id="0:2760">
+                                <LayoutComponentStyle gapHorizontal="6" gapVertical="6" layoutAlignmentType="center" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2759"/>
+                                <LayoutComponent styleId="0:2698" name="Key chevl" id="0:2699">
+                                    <LayoutComponentStyle paddingLeft="4" paddingRight="4" paddingTop="4" paddingBottom="4" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2698"/>
+                                    <Fill name="Fill" id="1:324436260">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2700"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:823441841">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:426570137"/>
+                                    </Stroke>
+                                    <LayoutComponent width="10" height="10" styleId="0:2696" name="Key chevl I" id="0:2697">
+                                        <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2696"/>
+                                        <Node x="5" y="5" name="Key chevl I Art" id="0:2695">
+                                            <Shape name="Key chevl I 0" id="0:2694">
+                                                <PointsPath name="Path" id="1:865483071">
+                                                    <StraightVertex x="1.0700001" y="-2.5799999" id="1:446832741"/>
+                                                    <StraightVertex x="-1.5" id="1:638507543"/>
+                                                    <StraightVertex x="1.0700001" y="2.5799999" id="1:836645990"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:852719441">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:390517274"/>
+                                                </Stroke>
+                                            </Shape>
+                                        </Node>
                                     </LayoutComponent>
-                                    <LayoutComponent styleId="0:2705" name="Key chev" id="0:2706">
-                                        <LayoutComponentStyle paddingLeft="4" paddingRight="4" paddingTop="4" paddingBottom="4" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2705"/>
-                                        <Fill name="Fill" id="1:947971420">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2707"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:213856885">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:418500763"/>
-                                        </Stroke>
-                                        <LayoutComponent width="10" height="10" styleId="0:2703" name="Key chev I" id="0:2704">
-                                            <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2703"/>
-                                            <Node x="5" y="5" name="Key chev I Art" id="0:2702">
-                                                <Shape name="Key chev I 0" id="0:2701">
-                                                    <PointsPath name="Path" id="1:577201624">
-                                                        <StraightVertex x="-1.0700001" y="-2.5799999" id="1:590361455"/>
-                                                        <StraightVertex x="1.5" id="1:659115987"/>
-                                                        <StraightVertex x="-1.0700001" y="2.5799999" id="1:190889214"/>
-                                                    </PointsPath>
-                                                    <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:896230682">
-                                                        <SolidColor colorValue="FFF4F6F7" name="C" id="1:443747737"/>
-                                                    </Stroke>
-                                                </Shape>
-                                            </Node>
-                                        </LayoutComponent>
+                                </LayoutComponent>
+                                <LayoutComponent styleId="0:2705" name="Key chev" id="0:2706">
+                                    <LayoutComponentStyle paddingLeft="4" paddingRight="4" paddingTop="4" paddingBottom="4" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2705"/>
+                                    <Fill name="Fill" id="1:947971420">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2707"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:213856885">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:418500763"/>
+                                    </Stroke>
+                                    <LayoutComponent width="10" height="10" styleId="0:2703" name="Key chev I" id="0:2704">
+                                        <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2703"/>
+                                        <Node x="5" y="5" name="Key chev I Art" id="0:2702">
+                                            <Shape name="Key chev I 0" id="0:2701">
+                                                <PointsPath name="Path" id="1:577201624">
+                                                    <StraightVertex x="-1.0700001" y="-2.5799999" id="1:590361455"/>
+                                                    <StraightVertex x="1.5" id="1:659115987"/>
+                                                    <StraightVertex x="-1.0700001" y="2.5799999" id="1:190889214"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:896230682">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:443747737"/>
+                                                </Stroke>
+                                            </Shape>
+                                        </Node>
                                     </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Panels" id="0:2709">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:325302775"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2708">
-                                            <Fill name="Fill" id="1:638226305">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:389524304"/>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Panels" id="0:2709">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:325302775"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2708">
+                                        <Fill name="Fill" id="1:638226305">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:389524304"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:271130343"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2708" text="Panels" name="Run" id="1:472989623"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2712" name="Key 1–5" id="0:2713">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2712"/>
+                                    <Fill name="Fill" id="1:476011896">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2714"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:693653713">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:752830145"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key 1–5 T" id="0:2711">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:791230797"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2710">
+                                            <Fill name="Fill" id="1:273002826">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:548188048"/>
                                             </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:271130343"/>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:412286987"/>
                                         </TextStylePaint>
-                                        <TextValueRun styleId="0:2708" text="Panels" name="Run" id="1:472989623"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2712" name="Key 1–5" id="0:2713">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2712"/>
-                                        <Fill name="Fill" id="1:476011896">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2714"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:693653713">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:752830145"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key 1–5 T" id="0:2711">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:791230797"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2710">
-                                                <Fill name="Fill" id="1:273002826">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:548188048"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:412286987"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2710" text="1–5" name="Run" id="1:764156077"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Jump" id="0:2716">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:777714792"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2715">
-                                            <Fill name="Fill" id="1:377927230">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:518434798"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:325277448"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2715" text="Jump" name="Run" id="1:488898789"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2719" name="Key L" id="0:2720">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2719"/>
-                                        <Fill name="Fill" id="1:983948409">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2721"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:512235852">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:580541557"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key L T" id="0:2718">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:748890072"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2717">
-                                                <Fill name="Fill" id="1:526217659">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:516976882"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:619900130"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2717" text="L" name="Run" id="1:219661594"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Lights" id="0:2723">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:207784111"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2722">
-                                            <Fill name="Fill" id="1:215840114">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:359020180"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:677261834"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2722" text="Lights" name="Run" id="1:939186389"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2726" name="Key B" id="0:2727">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2726"/>
-                                        <Fill name="Fill" id="1:677904404">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2728"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:158276578">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:866557226"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key B T" id="0:2725">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:853717184"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2724">
-                                                <Fill name="Fill" id="1:898908856">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:536762086"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:876508019"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2724" text="B" name="Run" id="1:322969613"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Boost" id="0:2730">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:231186367"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2729">
-                                            <Fill name="Fill" id="1:232131379">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:442798901"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:958895767"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2729" text="Boost" name="Run" id="1:930586070"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2733" name="Key G" id="0:2734">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2733"/>
-                                        <Fill name="Fill" id="1:224524706">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2735"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:446029255">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:500268517"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key G T" id="0:2732">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:872716319"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2731">
-                                                <Fill name="Fill" id="1:182606761">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:883192161"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:132202117"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2731" text="G" name="Run" id="1:929690465"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Welcome light" id="0:2737">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:227125191"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2736">
-                                            <Fill name="Fill" id="1:447984859">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:925840308"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:600201171"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2736" text="Welcome light" name="Run" id="1:185789786"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2740" name="Key N" id="0:2741">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2740"/>
-                                        <Fill name="Fill" id="1:237062146">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2742"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:622557429">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:441680151"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key N T" id="0:2739">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:267019105"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2738">
-                                                <Fill name="Fill" id="1:894483612">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:160454311"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:970259703"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2738" text="N" name="Run" id="1:945459687"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Day / night" id="0:2744">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:267491966"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2743">
-                                            <Fill name="Fill" id="1:199492754">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:679895349"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:391811224"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2743" text="Day / night" name="Run" id="1:794218354"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2747" name="Key Q" id="0:2748">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2747"/>
-                                        <Fill name="Fill" id="1:680700826">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2749"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:770933067">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:503994317"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key Q T" id="0:2746">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:594549465"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2745">
-                                                <Fill name="Fill" id="1:625551991">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:695492075"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:658434419"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2745" text="Q" name="Run" id="1:904139441"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Quality" id="0:2751">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:742661628"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2750">
-                                            <Fill name="Fill" id="1:378254296">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:332947265"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:198861844"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2750" text="Quality" name="Run" id="1:600642120"/>
-                                    </Text>
-                                    <LayoutComponent styleId="0:2754" name="Key R" id="0:2755">
-                                        <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2754"/>
-                                        <Fill name="Fill" id="1:445354396">
-                                            <SolidColor colorValue="1AFFFFFF" name="C" id="0:2756"/>
-                                        </Fill>
-                                        <Stroke name="Stroke" id="1:686605121">
-                                            <SolidColor colorValue="26FFFFFF" name="C" id="1:524987728"/>
-                                        </Stroke>
-                                        <Text wrapValue="noWrap" name="Key R T" id="0:2753">
-                                            <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:245540531"/>
-                                            <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2752">
-                                                <Fill name="Fill" id="1:118768021">
-                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:941680724"/>
-                                                </Fill>
-                                                <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:641032648"/>
-                                            </TextStylePaint>
-                                            <TextValueRun styleId="0:2752" text="R" name="Run" id="1:615757192"/>
-                                        </Text>
-                                    </LayoutComponent>
-                                    <Text wrapValue="noWrap" name="Hint Replay" id="0:2758">
-                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:225264451"/>
-                                        <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2757">
-                                            <Fill name="Fill" id="1:821704837">
-                                                <SolidColor colorValue="FFA3ACB4" name="C" id="1:752989339"/>
-                                            </Fill>
-                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:576243928"/>
-                                        </TextStylePaint>
-                                        <TextValueRun styleId="0:2757" text="Replay" name="Run" id="1:756479406"/>
+                                        <TextValueRun styleId="0:2710" text="1–5" name="Run" id="1:764156077"/>
                                     </Text>
                                 </LayoutComponent>
-                                <Text wrapValue="noWrap" name="Readout" id="0:2762">
-                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:655382592"/>
-                                    <TextStylePaint fontSize="12.5" letterSpacing="0.60000002" fontAssetId="0:14" name="Style" id="0:2761">
-                                        <Fill name="Fill" id="1:623203221">
-                                            <SolidColor colorValue="FFFFA41C" name="C" id="1:208519564"/>
+                                <Text wrapValue="noWrap" name="Hint Jump" id="0:2716">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:777714792"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2715">
+                                        <Fill name="Fill" id="1:377927230">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:518434798"/>
                                         </Fill>
-                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:138311414"/>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:325277448"/>
                                     </TextStylePaint>
-                                    <TextValueRun styleId="0:2761" text="Status  ·  Lights on" name="Run" id="1:609339585">
-                                        <DataBindContext sourcePathIds="0:17-0:65" propertyKey="268" id="1:115285024"/>
-                                    </TextValueRun>
+                                    <TextValueRun styleId="0:2715" text="Jump" name="Run" id="1:488898789"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2719" name="Key L" id="0:2720">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2719"/>
+                                    <Fill name="Fill" id="1:983948409">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2721"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:512235852">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:580541557"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key L T" id="0:2718">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:748890072"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2717">
+                                            <Fill name="Fill" id="1:526217659">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:516976882"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:619900130"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2717" text="L" name="Run" id="1:219661594"/>
+                                    </Text>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Lights" id="0:2723">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:207784111"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2722">
+                                        <Fill name="Fill" id="1:215840114">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:359020180"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:677261834"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2722" text="Lights" name="Run" id="1:939186389"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2726" name="Key B" id="0:2727">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2726"/>
+                                    <Fill name="Fill" id="1:677904404">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2728"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:158276578">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:866557226"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key B T" id="0:2725">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:853717184"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2724">
+                                            <Fill name="Fill" id="1:898908856">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:536762086"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:876508019"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2724" text="B" name="Run" id="1:322969613"/>
+                                    </Text>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Boost" id="0:2730">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:231186367"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2729">
+                                        <Fill name="Fill" id="1:232131379">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:442798901"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:958895767"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2729" text="Boost" name="Run" id="1:930586070"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2733" name="Key G" id="0:2734">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2733"/>
+                                    <Fill name="Fill" id="1:224524706">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2735"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:446029255">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:500268517"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key G T" id="0:2732">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:872716319"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2731">
+                                            <Fill name="Fill" id="1:182606761">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:883192161"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:132202117"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2731" text="G" name="Run" id="1:929690465"/>
+                                    </Text>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Welcome light" id="0:2737">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:227125191"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2736">
+                                        <Fill name="Fill" id="1:447984859">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:925840308"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:600201171"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2736" text="Welcome light" name="Run" id="1:185789786"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2740" name="Key N" id="0:2741">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2740"/>
+                                    <Fill name="Fill" id="1:237062146">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2742"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:622557429">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:441680151"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key N T" id="0:2739">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:267019105"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2738">
+                                            <Fill name="Fill" id="1:894483612">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:160454311"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:970259703"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2738" text="N" name="Run" id="1:945459687"/>
+                                    </Text>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Day / night" id="0:2744">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:267491966"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2743">
+                                        <Fill name="Fill" id="1:199492754">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:679895349"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:391811224"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2743" text="Day / night" name="Run" id="1:794218354"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2747" name="Key Q" id="0:2748">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2747"/>
+                                    <Fill name="Fill" id="1:680700826">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2749"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:770933067">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:503994317"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key Q T" id="0:2746">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:594549465"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2745">
+                                            <Fill name="Fill" id="1:625551991">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:695492075"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:658434419"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2745" text="Q" name="Run" id="1:904139441"/>
+                                    </Text>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Quality" id="0:2751">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:742661628"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2750">
+                                        <Fill name="Fill" id="1:378254296">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:332947265"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:198861844"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2750" text="Quality" name="Run" id="1:600642120"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2754" name="Key R" id="0:2755">
+                                    <LayoutComponentStyle paddingLeft="6" paddingRight="6" paddingTop="2" paddingBottom="2" layoutAlignmentType="center" flexDirectionValue="column" cornerRadiusTL="3" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2754"/>
+                                    <Fill name="Fill" id="1:445354396">
+                                        <SolidColor colorValue="1AFFFFFF" name="C" id="0:2756"/>
+                                    </Fill>
+                                    <Stroke name="Stroke" id="1:686605121">
+                                        <SolidColor colorValue="26FFFFFF" name="C" id="1:524987728"/>
+                                    </Stroke>
+                                    <Text wrapValue="noWrap" name="Key R T" id="0:2753">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:245540531"/>
+                                        <TextStylePaint fontSize="11.5" fontAssetId="0:14" name="Style" id="0:2752">
+                                            <Fill name="Fill" id="1:118768021">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:941680724"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:641032648"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2752" text="R" name="Run" id="1:615757192"/>
+                                    </Text>
+                                </LayoutComponent>
+                                <Text wrapValue="noWrap" name="Hint Replay" id="0:2758">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:225264451"/>
+                                    <TextStylePaint letterSpacing="0.40000001" fontAssetId="0:14" name="Style" id="0:2757">
+                                        <Fill name="Fill" id="1:821704837">
+                                            <SolidColor colorValue="FFA3ACB4" name="C" id="1:752989339"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:576243928"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2757" text="Replay" name="Run" id="1:756479406"/>
                                 </Text>
                             </LayoutComponent>
+                            <Text wrapValue="noWrap" name="Readout" id="0:2762">
+                                <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:655382592"/>
+                                <TextStylePaint fontSize="12.5" letterSpacing="0.60000002" fontAssetId="0:14" name="Style" id="0:2761">
+                                    <Fill name="Fill" id="1:623203221">
+                                        <SolidColor colorValue="FFFFA41C" name="C" id="1:208519564"/>
+                                    </Fill>
+                                    <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:138311414"/>
+                                </TextStylePaint>
+                                <TextValueRun styleId="0:2761" text="Status  ·  Lights on" name="Run" id="1:609339585">
+                                    <DataBindContext sourcePathIds="0:17-0:65" propertyKey="268" id="1:115285024"/>
+                                </TextValueRun>
+                            </Text>
                         </LayoutComponent>
                     </LayoutComponent>
                     <LayoutComponent styleId="0:2834" name="Top Row" id="0:2835">
@@ -429,6 +426,118 @@
                         </LayoutComponent>
                         <LayoutComponent styleId="0:2832" name="Top R" id="0:2833">
                             <LayoutComponentStyle gapHorizontal="18" gapVertical="18" layoutAlignmentType="centerRight" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2832"/>
+                            <LayoutComponent styleId="0:7000001" name="Top Stat" id="0:7000002">
+                                <LayoutComponentStyle gapHorizontal="18" gapVertical="18" layoutAlignmentType="center" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:7000001"/>
+                                <Text wrapValue="noWrap" name="OutT" id="0:2831">
+                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:655962228"/>
+                                    <TextStylePaint fontSize="16" fontAssetId="0:14" name="Style" id="0:2830">
+                                        <Fill name="Fill" id="1:632135410">
+                                            <SolidColor colorValue="FFF4F6F7" name="C" id="1:294949278"/>
+                                        </Fill>
+                                        <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:110024611"/>
+                                    </TextStylePaint>
+                                    <TextValueRun styleId="0:2830" text="12°C" name="Run" id="1:927554007"/>
+                                </Text>
+                                <LayoutComponent styleId="0:2801" name="Top Sig" id="0:2802">
+                                    <LayoutComponentStyle gapHorizontal="18" gapVertical="18" layoutAlignmentType="center" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2801"/>
+                                    <LayoutComponent width="18" height="18" styleId="0:2788" name="T Sig" id="0:2789">
+                                        <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2788"/>
+                                        <Node x="9" y="9" name="T Sig Art" id="0:2787">
+                                            <Shape name="T Sig 0" id="0:2783">
+                                                <PointsPath name="Path" id="1:167620778">
+                                                    <StraightVertex x="-5.4200001" y="6.1900001" id="1:625221447"/>
+                                                    <StraightVertex x="-5.4200001" y="3.0999999" id="1:933933366"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:631872578">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:550271079"/>
+                                                </Stroke>
+                                            </Shape>
+                                            <Shape name="T Sig 1" id="0:2784">
+                                                <PointsPath name="Path" id="1:946392060">
+                                                    <StraightVertex x="-1.9400001" y="6.1900001" id="1:321237270"/>
+                                                    <StraightVertex x="-1.9400001" y="0.38999999" id="1:222968352"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:124819068">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:528133220"/>
+                                                </Stroke>
+                                            </Shape>
+                                            <Shape name="T Sig 2" id="0:2785">
+                                                <PointsPath name="Path" id="1:797680720">
+                                                    <StraightVertex x="1.55" y="6.1900001" id="1:848313310"/>
+                                                    <StraightVertex x="1.55" y="-2.3199999" id="1:116644779"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:878074773">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:833998823"/>
+                                                </Stroke>
+                                            </Shape>
+                                            <Shape name="T Sig 3" id="0:2786">
+                                                <PointsPath name="Path" id="1:764468134">
+                                                    <StraightVertex x="5.0300002" y="6.1900001" id="1:562813479"/>
+                                                    <StraightVertex x="5.0300002" y="-5.4200001" id="1:711981275"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:113660085">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:130529591"/>
+                                                </Stroke>
+                                            </Shape>
+                                        </Node>
+                                    </LayoutComponent>
+                                    <Text wrapValue="noWrap" name="5G" id="0:2791">
+                                        <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:446916171"/>
+                                        <TextStylePaint fontSize="13" fontAssetId="0:14" name="Style" id="0:2790">
+                                            <Fill name="Fill" id="1:871968236">
+                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:651515713"/>
+                                            </Fill>
+                                            <TextStyleAxis tag="2003265652" axisValue="600" name="W" id="1:591970543"/>
+                                        </TextStylePaint>
+                                        <TextValueRun styleId="0:2790" text="5G" name="Run" id="1:185506582"/>
+                                    </Text>
+                                    <LayoutComponent width="18" height="18" styleId="0:2794" name="T Bt" id="0:2795">
+                                        <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2794"/>
+                                        <Node x="9" y="9" name="T Bt Art" id="0:2793">
+                                            <Shape name="T Bt 0" id="0:2792">
+                                                <PointsPath name="Path" id="1:153699397">
+                                                    <StraightVertex x="-4.2600002" y="-3.0999999" id="1:139884345"/>
+                                                    <StraightVertex x="3.8699999" y="3.25" id="1:457689930"/>
+                                                    <StraightVertex y="6.5799999" id="1:470888080"/>
+                                                    <StraightVertex y="-6.5799999" id="1:554553135"/>
+                                                    <StraightVertex x="3.8699999" y="-3.25" id="1:305335452"/>
+                                                    <StraightVertex x="-4.2600002" y="3.0999999" id="1:958721019"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:600353736">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:396194831"/>
+                                                </Stroke>
+                                            </Shape>
+                                        </Node>
+                                    </LayoutComponent>
+                                    <LayoutComponent width="20" height="20" styleId="0:2799" name="T Cam" id="0:2800">
+                                        <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2799"/>
+                                        <Node x="10" y="10" name="T Cam Art" id="0:2798">
+                                            <Shape name="T Cam 0" id="0:2796">
+                                                <PointsPath isClosed="true" name="Path" id="1:664091872">
+                                                    <StraightVertex x="-7.3099999" y="-4.3000002" id="1:610112455"/>
+                                                    <StraightVertex x="2.5799999" y="-4.3000002" id="1:410407141"/>
+                                                    <StraightVertex x="2.5799999" y="4.3000002" id="1:521035475"/>
+                                                    <StraightVertex x="-7.3099999" y="4.3000002" id="1:430966160"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:118253086">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:377963177"/>
+                                                </Stroke>
+                                            </Shape>
+                                            <Shape name="T Cam 1" id="0:2797">
+                                                <PointsPath isClosed="true" name="Path" id="1:503613140">
+                                                    <StraightVertex x="2.5799999" y="-0.86000001" id="1:438227094"/>
+                                                    <StraightVertex x="7.3099999" y="-3.8699999" id="1:214734771"/>
+                                                    <StraightVertex x="7.3099999" y="3.8699999" id="1:926183071"/>
+                                                    <StraightVertex x="2.5799999" y="0.86000001" id="1:468159348"/>
+                                                </PointsPath>
+                                                <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:415093310">
+                                                    <SolidColor colorValue="FFF4F6F7" name="C" id="1:308439876"/>
+                                                </Stroke>
+                                            </Shape>
+                                        </Node>
+                                    </LayoutComponent>
+                                </LayoutComponent>
+                            </LayoutComponent>
                             <LayoutComponent styleId="0:2781" name="Shortcuts" id="0:2764">
                                 <LayoutComponentStyle gapHorizontal="7" gapVertical="7" paddingLeft="10" paddingRight="12" paddingTop="6" paddingBottom="6" layoutAlignmentType="center" cornerRadiusTL="5" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2781"/>
                                 <Fill name="Fill" id="1:364897200">
@@ -508,115 +617,6 @@
                                     </TextStylePaint>
                                     <TextValueRun styleId="0:2779" text="Shortcuts" name="Run" id="1:992826136"/>
                                 </Text>
-                            </LayoutComponent>
-                            <Text wrapValue="noWrap" name="OutT" id="0:2831">
-                                <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:655962228"/>
-                                <TextStylePaint fontSize="16" fontAssetId="0:14" name="Style" id="0:2830">
-                                    <Fill name="Fill" id="1:632135410">
-                                        <SolidColor colorValue="FFF4F6F7" name="C" id="1:294949278"/>
-                                    </Fill>
-                                    <TextStyleAxis tag="2003265652" axisValue="500" name="W" id="1:110024611"/>
-                                </TextStylePaint>
-                                <TextValueRun styleId="0:2830" text="12°C" name="Run" id="1:927554007"/>
-                            </Text>
-                            <LayoutComponent styleId="0:2801" name="Top Sig" id="0:2802">
-                                <LayoutComponentStyle gapHorizontal="18" gapVertical="18" layoutAlignmentType="center" layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Style" id="0:2801"/>
-                                <LayoutComponent width="18" height="18" styleId="0:2788" name="T Sig" id="0:2789">
-                                    <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2788"/>
-                                    <Node x="9" y="9" name="T Sig Art" id="0:2787">
-                                        <Shape name="T Sig 0" id="0:2783">
-                                            <PointsPath name="Path" id="1:167620778">
-                                                <StraightVertex x="-5.4200001" y="6.1900001" id="1:625221447"/>
-                                                <StraightVertex x="-5.4200001" y="3.0999999" id="1:933933366"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:631872578">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:550271079"/>
-                                            </Stroke>
-                                        </Shape>
-                                        <Shape name="T Sig 1" id="0:2784">
-                                            <PointsPath name="Path" id="1:946392060">
-                                                <StraightVertex x="-1.9400001" y="6.1900001" id="1:321237270"/>
-                                                <StraightVertex x="-1.9400001" y="0.38999999" id="1:222968352"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:124819068">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:528133220"/>
-                                            </Stroke>
-                                        </Shape>
-                                        <Shape name="T Sig 2" id="0:2785">
-                                            <PointsPath name="Path" id="1:797680720">
-                                                <StraightVertex x="1.55" y="6.1900001" id="1:848313310"/>
-                                                <StraightVertex x="1.55" y="-2.3199999" id="1:116644779"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:878074773">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:833998823"/>
-                                            </Stroke>
-                                        </Shape>
-                                        <Shape name="T Sig 3" id="0:2786">
-                                            <PointsPath name="Path" id="1:764468134">
-                                                <StraightVertex x="5.0300002" y="6.1900001" id="1:562813479"/>
-                                                <StraightVertex x="5.0300002" y="-5.4200001" id="1:711981275"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:113660085">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:130529591"/>
-                                            </Stroke>
-                                        </Shape>
-                                    </Node>
-                                </LayoutComponent>
-                                <Text wrapValue="noWrap" name="5G" id="0:2791">
-                                    <LayoutParticipant layoutWidthScaleType="hug" layoutHeightScaleType="hug" name="Layout" id="1:446916171"/>
-                                    <TextStylePaint fontSize="13" fontAssetId="0:14" name="Style" id="0:2790">
-                                        <Fill name="Fill" id="1:871968236">
-                                            <SolidColor colorValue="FFF4F6F7" name="C" id="1:651515713"/>
-                                        </Fill>
-                                        <TextStyleAxis tag="2003265652" axisValue="600" name="W" id="1:591970543"/>
-                                    </TextStylePaint>
-                                    <TextValueRun styleId="0:2790" text="5G" name="Run" id="1:185506582"/>
-                                </Text>
-                                <LayoutComponent width="18" height="18" styleId="0:2794" name="T Bt" id="0:2795">
-                                    <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2794"/>
-                                    <Node x="9" y="9" name="T Bt Art" id="0:2793">
-                                        <Shape name="T Bt 0" id="0:2792">
-                                            <PointsPath name="Path" id="1:153699397">
-                                                <StraightVertex x="-4.2600002" y="-3.0999999" id="1:139884345"/>
-                                                <StraightVertex x="3.8699999" y="3.25" id="1:457689930"/>
-                                                <StraightVertex y="6.5799999" id="1:470888080"/>
-                                                <StraightVertex y="-6.5799999" id="1:554553135"/>
-                                                <StraightVertex x="3.8699999" y="-3.25" id="1:305335452"/>
-                                                <StraightVertex x="-4.2600002" y="3.0999999" id="1:958721019"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:600353736">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:396194831"/>
-                                            </Stroke>
-                                        </Shape>
-                                    </Node>
-                                </LayoutComponent>
-                                <LayoutComponent width="20" height="20" styleId="0:2799" name="T Cam" id="0:2800">
-                                    <LayoutComponentStyle flexDirectionValue="column" name="Style" id="0:2799"/>
-                                    <Node x="10" y="10" name="T Cam Art" id="0:2798">
-                                        <Shape name="T Cam 0" id="0:2796">
-                                            <PointsPath isClosed="true" name="Path" id="1:664091872">
-                                                <StraightVertex x="-7.3099999" y="-4.3000002" id="1:610112455"/>
-                                                <StraightVertex x="2.5799999" y="-4.3000002" id="1:410407141"/>
-                                                <StraightVertex x="2.5799999" y="4.3000002" id="1:521035475"/>
-                                                <StraightVertex x="-7.3099999" y="4.3000002" id="1:430966160"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:118253086">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:377963177"/>
-                                            </Stroke>
-                                        </Shape>
-                                        <Shape name="T Cam 1" id="0:2797">
-                                            <PointsPath isClosed="true" name="Path" id="1:503613140">
-                                                <StraightVertex x="2.5799999" y="-0.86000001" id="1:438227094"/>
-                                                <StraightVertex x="7.3099999" y="-3.8699999" id="1:214734771"/>
-                                                <StraightVertex x="7.3099999" y="3.8699999" id="1:926183071"/>
-                                                <StraightVertex x="2.5799999" y="0.86000001" id="1:468159348"/>
-                                            </PointsPath>
-                                            <Stroke thickness="1.6" cap="round" join="round" name="Stroke" id="1:415093310">
-                                                <SolidColor colorValue="FFF4F6F7" name="C" id="1:308439876"/>
-                                            </Stroke>
-                                        </Shape>
-                                    </Node>
-                                </LayoutComponent>
                             </LayoutComponent>
                         </LayoutComponent>
                     </LayoutComponent>
@@ -1357,6 +1357,20 @@
                 </KeyedProperty>
             </KeyedObject>
         </LinearAnimation>
+        <LinearAnimation duration="12" name="Keys Stat On" id="0:7000003">
+            <KeyedObject objectId="0:7000001" id="0:7000004">
+                <KeyedProperty property="displayValue" id="0:7000005">
+                    <KeyFrameUint value="1" id="0:7000006"/>
+                </KeyedProperty>
+            </KeyedObject>
+        </LinearAnimation>
+        <LinearAnimation duration="12" name="Keys Stat Off" id="0:7000007">
+            <KeyedObject objectId="0:7000001" id="0:7000008">
+                <KeyedProperty property="displayValue" id="0:7000009">
+                    <KeyFrameUint id="0:7000010"/>
+                </KeyedProperty>
+            </KeyedObject>
+        </LinearAnimation>
         <LinearAnimation duration="12" name="D Fan On" id="0:2872">
             <KeyedObject objectId="0:2855" id="1:291480091">
                 <KeyedProperty property="colorValue" id="1:897345009">
@@ -1641,6 +1655,37 @@
                     <StateTransition stateToId="0:2811" id="1:355503812"/>
                 </EntryState>
                 <AnyState y="-120" id="1:869115510"/>
+            </StateMachineLayer>
+            <StateMachineLayer name="Keys Stat" id="0:7000011">
+                <AnimationState animationId="0:7000003" x="200" y="140" id="0:7000012">
+                    <StateTransition stateToId="0:7000019" id="0:7000013">
+                        <TransitionViewModelCondition opValue="lessThan" id="0:7000014">
+                            <TransitionPropertyViewModelComparator id="0:7000015">
+                                <BindablePropertyNumber id="0:7000016">
+                                    <DataBindContext sourcePathIds="0:17-0:66" propertyKey="636" id="0:7000017"/>
+                                </BindablePropertyNumber>
+                            </TransitionPropertyViewModelComparator>
+                            <TransitionValueNumberComparator value="0.5" id="0:7000018"/>
+                        </TransitionViewModelCondition>
+                    </StateTransition>
+                </AnimationState>
+                <AnimationState animationId="0:7000007" x="200" id="0:7000019">
+                    <StateTransition stateToId="0:7000012" id="0:7000020">
+                        <TransitionViewModelCondition opValue="greaterThan" id="0:7000021">
+                            <TransitionPropertyViewModelComparator id="0:7000022">
+                                <BindablePropertyNumber id="0:7000023">
+                                    <DataBindContext sourcePathIds="0:17-0:66" propertyKey="636" id="0:7000024"/>
+                                </BindablePropertyNumber>
+                            </TransitionPropertyViewModelComparator>
+                            <TransitionValueNumberComparator value="0.5" id="0:7000025"/>
+                        </TransitionViewModelCondition>
+                    </StateTransition>
+                </AnimationState>
+                <ExitState x="500" y="-120" id="0:7000026"/>
+                <EntryState id="0:7000027">
+                    <StateTransition stateToId="0:7000019" id="0:7000028"/>
+                </EntryState>
+                <AnyState y="-120" id="0:7000029"/>
             </StateMachineLayer>
             <StateMachineLayer name="D Fan" id="0:2876">
                 <AnimationState animationId="0:2872" x="200" y="140" id="0:2874">
